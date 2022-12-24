@@ -1,6 +1,6 @@
 
-import { mount as productsMount } from 'products/ProductsIndex'
-import { mount as productsCart } from 'productCart/ProductsCartIndex'
+import { mount as mountProducts } from 'products/ProductsIndex'
+import { mount as mountCart } from 'productCart/ProductsCartIndex'
 
-productsMount(document.querySelector('#dev-products'))
-productsCart(document.querySelector('#dev-cart'))
+mountProducts(document.querySelector('#dev-products'))
+mountCart(document.querySelector('#dev-cart'))
