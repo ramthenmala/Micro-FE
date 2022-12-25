@@ -1,1 +1,1 @@
-console.log('Index from marketing')
+import('./bootstrap')
