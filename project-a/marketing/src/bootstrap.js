@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom'
 import App from './App'
 
 const mount = (el) => {
+    console.log('MOunted')
     ReactDOM.render(<App />, el)
 }
 
@@ -12,6 +13,7 @@ if (process.env.NODE_ENV === 'development') {
 
     if (devRoot) {
         mount(devRoot)
-        console.log('dev root mounted')
     }
 }
+
+export { mount }

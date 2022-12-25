@@ -1,7 +1,7 @@
 import React from 'react'
+import { mount } from 'marketing/MarketingApp'
 
 export default () => {
-    return (
-        <div>Hi form Container</div>
-    )
+    console.log(mount)
+    return <div>container</div>
 }
